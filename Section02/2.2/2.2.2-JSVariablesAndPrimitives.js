@@ -25,7 +25,7 @@ console.log(typeof favoriteThing);
 
 // You heard a new song that became your favorite.
 // Reassign the variable "favoriteSong"
-favoriteSong = "What's my Age Again";
+ favoriteSong = "What's my Age Again";
 
 // You no longer like the type of data stored in "favoriteThing"
 // Reassign "favoriteThing" to a different primitive data type and print its type
