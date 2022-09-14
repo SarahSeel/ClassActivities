@@ -33,15 +33,14 @@ function gradeCheck(scoreAverage) {
   if (scoreAverage >= 80) {
     console.log(`${scoreAverage}, Enjoy your summer!`);
     return false;
-};
+}
   if (scoreAverage >= 60) {
     console.log(`${scoreAverage}, Extra studying required.`);
-    return true; };
+    return true; 
+}
 
   if (scoreAverage < 60) {
     console.log(`${scoreAverage}, Failed`);
   return true;
-};
-gradeCheck();
-
-// Invoke gradeCheck and pass in testAverage as an argument; testAverage should have the same parameters as before
+}
+gradeCheck(testAverage(92, 71, 85, 83));
